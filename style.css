@@ -10,251 +10,254 @@ header{
     float: left;
     margin-top: 16px;
 }
+
 .lead {
-	margin-top: 64px;
+    margin-top: 64px;
 }
 
 .box {
     width: 100px;
     height: 100px;
-    margin: 10px;
     border: 1px solid black;
-    margin: auto;
+    margin: 24px auto 0;
 }
-.box-1 {
-    background-color: #394750;
-}
-.box-2 {
-    background-color: #733f42;
-}
-.box-3 {
-    background-color: #e77f01;
-}
+
+.box-1 { background-color: #394750; }
+.box-2 { background-color: #733f42; }
+.box-3 { background-color: #e77f01; }
 
 .hex {
     text-align: center;
 }
 
-.img-fluid {
-    margin: 24px, auto;
-}
 .projects {
     margin-top: 24px;
 }
-.project-img  {
+
+.project-img {
     margin-top: 36px;
 }
+
 .project-img img {
     border: 1px solid lightgray;
 }
+
 .project-name {
     margin-top: 12px;
     text-align: center;
 }
 
 
-.footer-form{
-	background-color: #292c2f;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-	box-sizing: border-box;
-	width: 100%;
-	font: bold 16px sans-serif;
-	text-align: left;
-
-	padding: 50px 60px 40px;
-	margin-top: 80px;
-	overflow: hidden;
+.footer-form {
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    font: bold 16px sans-serif;
+    text-align: left;
+    padding: 48px 64px 40px;
+    margin-top: 80px;
+    overflow: hidden;
 }
 
-/* Footer left */
 
-.footer-form .footer-left{
-	float: left;
+
+/* Footer left */
+.footer-form .footer-left {
+    float: left;
 }
 
 /* The company logo */
 
 .footer-form h3{
-	color:  #ffffff;
-	font: normal 36px 'Cookie', cursive;
-	margin: 0 0 10px;
+    color:  #ffffff;
+    margin: 0 0 8px;
 }
 
-.footer-form h3 span{
-	color:  #e77f01;
+.footer-form h3 span {
+    color: #e77f01;
 }
+
 
 /* Footer links */
-
-.footer-form .footer-company-name{
-	color:  #ffffff;
-	font-size: 14px;
-	font-weight: normal;
-	margin: 0;
+.footer-form .footer-company-name {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
 }
 
 /* Footer Right */
-
-.footer-form .footer-right{
-	float: right;
+.footer-form .footer-right {
+    float: right;
 }
 
-.footer-form .footer-right p{
-	display: inline-block;
-	vertical-align: top;
-	margin: 15px 42px 0 0;
-	color: #ffffff;
+.footer-form .footer-right p {
+    display: inline-block;
+    vertical-align: top;
+    margin: 16px 42px 0 0;
+    color: #ffffff;
 }
+
 
 /* The contact form */
-
-.footer-form form{
-	display: inline-block;
+.footer-form form {
+    display: inline-block;
 }
 
 .footer-form form input,
-.footer-form form textarea{
-	display: block;
-	border-radius: 3px;
-	box-sizing: border-box;
-	background-color:  #1f2022;
-	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
-	border: none;
-	resize: none;
+.footer-form form textarea {
+    display: block;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color:  #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
 
-	font: inherit;
-	font-size: 14px;
-	font-weight: normal;
-	color:  #d1d2d2;
+    font: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    color:  #d1d2d2;
 
-	width: 400px;
-	padding: 18px;
+    width: 400px;
+    padding: 16px;
 }
 
 .footer-form ::-webkit-input-placeholder {
-	color:  #5c666b;
+    color: #74838a;
 }
 
 .footer-form ::-moz-placeholder {
-	color:  #5c666b;
-	opacity: 1;
+    color: #74838a;
+    opacity: 1;
 }
 
-.footer-form :-ms-input-placeholder{
-	color:  #5c666b;
+.footer-form :-ms-input-placeholder {
+    color: #74838a;
 }
 
-
-.footer-form form input{
-	height: 55px;
-	margin-bottom: 15px;
+.footer-form form input {
+    height: 55px;
+    margin-bottom: 15px;
 }
 
-.footer-form form textarea{
-	height: 100px;
-	margin-bottom: 20px;
+.footer-form form textarea {
+    height: 100px;
+    margin-bottom: 20px;
 }
 
-.footer-form form button{
-	border-radius: 3px;
-	background-color:  #33383b;
-	color: #ffffff;
-	border: 0;
-	padding: 15px 50px;
-	font-weight: bold;
-	float: right;
-}
-
-
-
-
-
-/* Tablet: Apple iPad */
-@media (min-width: 415px) and (max-width: 1024px) {
-	.logo {
-		float: none;
-		text-align: left;
-	}
-	.box {
-		margin-top: 32px;
-	}
-
-
-	.footer-form {
-		font: bold 14px sans-serif;
-	}
-
-	.footer-form .footer-company-name{
-		font-size: 12px;
-	}
-
-	.footer-form form input,
-	.footer-form form textarea{
-		width: 250px;
-	}
-
-	.footer-form form button{
-		padding: 10px 35px;
-	}
-
+.footer-form form button {
+    border-radius: 3px;
+    background-color: #33383b;
+    color: #ffffff;
+    border: 0;
+    padding: 16px 48px;
+    font-weight: bold;
+    float: right;
 }
 
 
-/* Mobile */
-@media (max-width: 414px) {
+/* iPad Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .footer-form{
+        padding: 30px;
+        margin-top: 24px;
+    }
 
-	.project-name {
-		margin: 12px auto 36px;
-	}
-	.projects {
-		text-align: center;
-	}
-	.intro {
-		float: inherit;
-		text-align: center;
-	}
+    .footer-form .footer-left,
+    .footer-form .footer-right{
+        float: none;
+        max-width: 300px;
+        margin: 0 auto;
+    }
 
-	.logo {
-		float: inherit;
-		text-align: center;
-		margin-bottom: 24px;
-	}
-	.box {
-		width: 50%;
-		height: 20%;
-	}
-	hr {
-		margin-bottom: 5rem;
-		border-top: none; 
-	}
+    .footer-form .footer-left{
+        margin-bottom: 40px;
+    }
+
+    .footer-form form {
+        display: block;
+    }
+
+    .footer-form form button {
+        float: none;
+    }
 }
 
-@media (max-width: 768px) {
 
-	.footer-form{
-		padding: 30px;
-	}
+/* Phone:  Google Nexus 5 */
+@media (min-width: 412px) and (max-width: 732px) {
+    .logo {
+        float: none;
+        text-align: left;
+    }
 
-	.footer-form .footer-left,
-	.footer-form .footer-right{
-		float: none;
-		max-width: 300px;
-		margin: 0 auto;
-	}
+    .box {
+        text-align: center;
+        display: inline;
+        padding: 8px 16px;
+    }
 
-	.footer-form .footer-left{
-		margin-bottom: 40px;
-	}
+    .hex{
+        display: inline;
+        padding-left: 8px;
+    }
 
-	.footer-form form{
-		margin-top: 30px;
-	}
+    #boxes{
+        text-align: center;
+    }
 
-	.footer-form form{
-		display: block;
-	}
 
-	.footer-form form button{
-		float: none;
-	}
+    .footer-form {
+        font: bold 14px sans-serif;
+        margin-top: 24px;
+    }
+
+    .footer-form .footer-company-name {
+        font-size: 12px;
+    }
+
+    .footer-form form input,
+    .footer-form form textarea {
+        width: 250px;
+    }
+
+    .footer-form form button {
+        padding: 10px 35px;
+    }
+
+    .project-name {
+        margin: 12px auto 36px;
+    }
+
+    .projects {
+        text-align: center;
+    }
+
+    .intro {
+        float: inherit;
+        text-align: center;
+    }
+
+    .logo {
+        float: inherit;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .box {
+        width: 50%;
+        height: 20%;
+        margin-top: auto;
+    }
+
+    hr {
+        margin-bottom: 5rem;
+        border-top: none; 
+    }
+
 }
