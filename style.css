@@ -10,6 +10,9 @@ header{
     float: left;
     margin-top: 16px;
 }
+.lead {
+	margin-top: 64px;
+}
 
 .box {
     width: 100px;
@@ -50,7 +53,7 @@ header{
 }
 
 
-.footer-distributed{
+.footer-form{
 	background-color: #292c2f;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
@@ -65,74 +68,38 @@ header{
 
 /* Footer left */
 
-.footer-distributed .footer-left{
+.footer-form .footer-left{
 	float: left;
 }
 
 /* The company logo */
 
-.footer-distributed h3{
+.footer-form h3{
 	color:  #ffffff;
 	font: normal 36px 'Cookie', cursive;
 	margin: 0 0 10px;
 }
 
-.footer-distributed h3 span{
+.footer-form h3 span{
 	color:  #e77f01;
 }
 
 /* Footer links */
 
-.footer-distributed .footer-links{
+.footer-form .footer-company-name{
 	color:  #ffffff;
-	margin: 0 0 10px;
-	padding: 0;
-}
-
-.footer-distributed .footer-links a{
-	display:inline-block;
-	line-height: 1.8;
-	text-decoration: none;
-	color:  inherit;
-}
-
-.footer-distributed .footer-company-name{
-	color:  #8f9296;
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
 }
 
-/* Footer social icons */
-
-.footer-distributed .footer-icons{
-	margin-top: 40px;
-}
-
-.footer-distributed .footer-icons a{
-	display: inline-block;
-	width: 35px;
-	height: 35px;
-	cursor: pointer;
-	background-color:  #33383b;
-	border-radius: 2px;
-
-	font-size: 20px;
-	color: #ffffff;
-	text-align: center;
-	line-height: 35px;
-
-	margin-right: 3px;
-	margin-bottom: 5px;
-}
-
 /* Footer Right */
 
-.footer-distributed .footer-right{
+.footer-form .footer-right{
 	float: right;
 }
 
-.footer-distributed .footer-right p{
+.footer-form .footer-right p{
 	display: inline-block;
 	vertical-align: top;
 	margin: 15px 42px 0 0;
@@ -141,12 +108,12 @@ header{
 
 /* The contact form */
 
-.footer-distributed form{
+.footer-form form{
 	display: inline-block;
 }
 
-.footer-distributed form input,
-.footer-distributed form textarea{
+.footer-form form input,
+.footer-form form textarea{
 	display: block;
 	border-radius: 3px;
 	box-sizing: border-box;
@@ -164,31 +131,31 @@ header{
 	padding: 18px;
 }
 
-.footer-distributed ::-webkit-input-placeholder {
+.footer-form ::-webkit-input-placeholder {
 	color:  #5c666b;
 }
 
-.footer-distributed ::-moz-placeholder {
+.footer-form ::-moz-placeholder {
 	color:  #5c666b;
 	opacity: 1;
 }
 
-.footer-distributed :-ms-input-placeholder{
+.footer-form :-ms-input-placeholder{
 	color:  #5c666b;
 }
 
 
-.footer-distributed form input{
+.footer-form form input{
 	height: 55px;
 	margin-bottom: 15px;
 }
 
-.footer-distributed form textarea{
+.footer-form form textarea{
 	height: 100px;
 	margin-bottom: 20px;
 }
 
-.footer-distributed form button{
+.footer-form form button{
 	border-radius: 3px;
 	background-color:  #33383b;
 	color: #ffffff;
@@ -198,66 +165,96 @@ header{
 	float: right;
 }
 
-/* If you don't want the footer to be responsive, remove these media queries */
 
-@media (max-width: 1000px) {
 
-	.footer-distributed {
+
+
+/* Tablet: Apple iPad */
+@media (min-width: 415px) and (max-width: 1024px) {
+	.logo {
+		float: none;
+		text-align: left;
+	}
+	.box {
+		margin-top: 32px;
+	}
+
+
+	.footer-form {
 		font: bold 14px sans-serif;
 	}
 
-	.footer-distributed .footer-company-name{
+	.footer-form .footer-company-name{
 		font-size: 12px;
 	}
 
-	.footer-distributed form input,
-	.footer-distributed form textarea{
+	.footer-form form input,
+	.footer-form form textarea{
 		width: 250px;
 	}
 
-	.footer-distributed form button{
+	.footer-form form button{
 		padding: 10px 35px;
 	}
 
 }
 
-@media (max-width: 800px) {
 
-	.footer-distributed{
+/* Mobile */
+@media (max-width: 414px) {
+
+	.project-name {
+		margin: 12px auto 36px;
+	}
+	.projects {
+		text-align: center;
+	}
+	.intro {
+		float: inherit;
+		text-align: center;
+	}
+
+	.logo {
+		float: inherit;
+		text-align: center;
+		margin-bottom: 24px;
+	}
+	.box {
+		width: 50%;
+		height: 20%;
+	}
+	hr {
+		margin-bottom: 5rem;
+		border-top: none; 
+	}
+}
+
+@media (max-width: 768px) {
+
+	.footer-form{
 		padding: 30px;
 	}
 
-	.footer-distributed .footer-left,
-	.footer-distributed .footer-right{
+	.footer-form .footer-left,
+	.footer-form .footer-right{
 		float: none;
 		max-width: 300px;
 		margin: 0 auto;
 	}
 
-	.footer-distributed .footer-left{
+	.footer-form .footer-left{
 		margin-bottom: 40px;
 	}
 
-	.footer-distributed form{
+	.footer-form form{
 		margin-top: 30px;
 	}
 
-	.footer-distributed form{
+	.footer-form form{
 		display: block;
 	}
 
-	.footer-distributed form button{
+	.footer-form form button{
 		float: none;
 	}
 }
-
-
-
-/* Mobile: Google Nexus 5 */
-@media (min-width: 576px) { ... }
-
-/* Tablet: Apple iPad */
-@media (min-width: 768px) { ... }
-
-
-
