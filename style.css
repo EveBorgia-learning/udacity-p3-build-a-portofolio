@@ -2,12 +2,7 @@ header{
     margin-top: 32px;
 }
 
-.intro {
-    float: right;
-}
-
 .logo {
-    float: left;
     margin-top: 16px;
 }
 
@@ -60,13 +55,6 @@ header{
     overflow: hidden;
 }
 
-
-
-/* Footer left */
-.footer-form .footer-left {
-    float: left;
-}
-
 /* The company logo */
 
 .footer-form h3{
@@ -85,11 +73,6 @@ header{
     font-size: 14px;
     font-weight: normal;
     margin: 0;
-}
-
-/* Footer Right */
-.footer-form .footer-right {
-    float: right;
 }
 
 .footer-form .footer-right p {
@@ -154,7 +137,6 @@ header{
     border: 0;
     padding: 16px 48px;
     font-weight: bold;
-    float: right;
 }
 
 
@@ -170,7 +152,6 @@ header{
 
     .footer-form .footer-left,
     .footer-form .footer-right{
-        float: none;
         max-width: 300px;
         margin: 0 auto;
     }
@@ -182,17 +163,12 @@ header{
     .footer-form form {
         display: block;
     }
-
-    .footer-form form button {
-        float: none;
-    }
 }
 
 
 /* Phone:  Google Nexus 5 */
-@media (min-width: 412px) and (max-width: 732px) {
+@media (max-width: 767px) {
     .logo {
-        float: none;
         text-align: left;
     }
 
@@ -220,6 +196,9 @@ header{
     .footer-form .footer-company-name {
         font-size: 12px;
     }
+    .footer-form .footer-right p{
+        margin: 24px 42px 12px 0;
+    }
 
     .footer-form form input,
     .footer-form form textarea {
@@ -238,14 +217,7 @@ header{
         text-align: center;
     }
 
-    .intro {
-        float: inherit;
-        text-align: center;
-    }
-
     .logo {
-        float: inherit;
-        text-align: center;
         margin-bottom: 24px;
     }
 
