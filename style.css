@@ -1,4 +1,4 @@
-header{
+header {
     margin-top: 32px;
 }
 
@@ -17,9 +17,15 @@ header{
     margin: 24px auto 0;
 }
 
-.box-1 { background-color: #394750; }
-.box-2 { background-color: #733f42; }
-.box-3 { background-color: #e77f01; }
+.box-1 { 
+    background: #394750;
+}
+.box-2 { 
+    background: #733f42;
+}
+.box-3 { 
+    background: #e77f01;
+}
 
 .projects {
     margin-top: 24px;
@@ -38,7 +44,7 @@ header{
 }
 
 .footer-form {
-    background-color: #292c2f;
+    background: #292c2f;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
@@ -51,7 +57,7 @@ header{
 /* The company logo */
 
 .footer-form h3{
-    color:  #ffffff;
+    color:  #fff;
     margin: 0 0 8px;
 }
 
@@ -61,7 +67,7 @@ header{
 
 /* Footer links */
 .footer-form .footer-company-name {
-    color: #ffffff;
+    color: #fff;
     font-size: 14px;
     font-weight: normal;
     margin: 0;
@@ -70,7 +76,7 @@ header{
 .footer-form .footer-right p {
     vertical-align: top;
     margin: 14px 42px 12px 0;
-    color: #ffffff;
+    color: #fff;
 }
 
 /* The contact form */
@@ -79,7 +85,7 @@ header{
 .footer-form form textarea {
     border-radius: 3px;
     box-sizing: border-box;
-    background-color:  #1f2022;
+    background:  #1f2022;
     box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
     border: none;
     resize: none;
@@ -118,8 +124,8 @@ header{
 
 .footer-form form button {
     border-radius: 3px;
-    background-color: #33383b;
-    color: #ffffff;
+    background: #33383b;
+    color: #fff;
     border: 0;
     padding: 16px 48px;
     font-weight: bold;
