@@ -150,6 +150,10 @@ header{
         margin-top: 24px;
     }
 
+    .footer-form .footer-right p{
+        margin: 24px 42px 12px 0;
+    }   
+
     .footer-form .footer-left,
     .footer-form .footer-right{
         max-width: 300px;
