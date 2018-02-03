@@ -21,10 +21,6 @@ header{
 .box-2 { background-color: #733f42; }
 .box-3 { background-color: #e77f01; }
 
-.hex {
-    text-align: center;
-}
-
 .projects {
     margin-top: 24px;
 }
@@ -39,9 +35,7 @@ header{
 
 .project-name {
     margin-top: 12px;
-    text-align: center;
 }
-
 
 .footer-form {
     background-color: #292c2f;
@@ -49,7 +43,6 @@ header{
     box-sizing: border-box;
     width: 100%;
     font: bold 16px sans-serif;
-    text-align: left;
     padding: 48px 64px 40px;
     margin-top: 80px;
     overflow: hidden;
@@ -66,7 +59,6 @@ header{
     color: #e77f01;
 }
 
-
 /* Footer links */
 .footer-form .footer-company-name {
     color: #ffffff;
@@ -76,21 +68,15 @@ header{
 }
 
 .footer-form .footer-right p {
-    display: inline-block;
     vertical-align: top;
-    margin: 16px 42px 0 0;
+    margin: 14px 42px 12px 0;
     color: #ffffff;
 }
 
-
 /* The contact form */
-.footer-form form {
-    display: inline-block;
-}
 
 .footer-form form input,
 .footer-form form textarea {
-    display: block;
     border-radius: 3px;
     box-sizing: border-box;
     background-color:  #1f2022;
@@ -150,10 +136,6 @@ header{
         margin-top: 24px;
     }
 
-    .footer-form .footer-right p{
-        margin: 24px 42px 12px 0;
-    }   
-
     .footer-form .footer-left,
     .footer-form .footer-right{
         max-width: 300px;
@@ -164,31 +146,18 @@ header{
         margin-bottom: 40px;
     }
 
-    .footer-form form {
-        display: block;
-    }
 }
 
 
 /* Phone:  Google Nexus 5 */
 @media (max-width: 767px) {
-    .logo {
-        text-align: left;
-    }
 
     .box {
-        text-align: center;
-        display: inline;
         padding: 8px 16px;
     }
 
     .hex{
-        display: inline;
         padding-left: 8px;
-    }
-
-    #boxes{
-        text-align: center;
     }
 
 
@@ -199,9 +168,6 @@ header{
 
     .footer-form .footer-company-name {
         font-size: 12px;
-    }
-    .footer-form .footer-right p{
-        margin: 24px 42px 12px 0;
     }
 
     .footer-form form input,
@@ -215,10 +181,6 @@ header{
 
     .project-name {
         margin: 12px auto 36px;
-    }
-
-    .projects {
-        text-align: center;
     }
 
     .logo {
@@ -235,5 +197,4 @@ header{
         margin-bottom: 5rem;
         border-top: none; 
     }
-
 }
