@@ -89,12 +89,10 @@ header {
     box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
     border: none;
     resize: none;
-
     font: inherit;
     font-size: 14px;
     font-weight: normal;
     color:  #d1d2d2;
-
     width: 400px;
     padding: 16px;
 }
@@ -131,7 +129,6 @@ header {
     font-weight: bold;
 }
 
-
 /* iPad Portrait and Landscape */
 @media only screen 
   and (min-device-width: 768px) 
@@ -142,18 +139,17 @@ header {
         margin-top: 24px;
     }
 
-    .footer-form .footer-left,
-    .footer-form .footer-right{
+.footer-form .footer-left,
+    .footer-form .footer-right {
         max-width: 300px;
         margin: 0 auto;
     }
 
-    .footer-form .footer-left{
+    .footer-form .footer-left {
         margin-bottom: 40px;
     }
 
 }
-
 
 /* Phone:  Google Nexus 5 */
 @media (max-width: 767px) {
@@ -165,7 +161,6 @@ header {
     .hex{
         padding-left: 8px;
     }
-
 
     .footer-form {
         font: bold 14px sans-serif;
